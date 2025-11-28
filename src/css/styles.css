@@ -137,6 +137,31 @@
   }
 }
 
+.btn-loadmore {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background: #4e75ff;
+  display: flex;
+  margin: 0 auto;
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 52px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-loadmore:hover,
+.btn-loadmore:focus {
+  background: #6c8cff;
+}
+
 .hidden {
   display: none;
 }

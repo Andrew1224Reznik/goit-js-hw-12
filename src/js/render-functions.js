@@ -54,3 +54,13 @@ export function showLoader() {
 export function hideLoader() {
   loader.classList.add('hidden');
 }
+
+const btnLoadmore = document.querySelector('.btn-loadmore');
+
+export function showLoadMoreButton() {
+  btnLoadmore.classList.remove('hidden');
+}
+
+export function hideLoadMoreButton() {
+  btnLoadmore.classList.add('hidden');
+}
